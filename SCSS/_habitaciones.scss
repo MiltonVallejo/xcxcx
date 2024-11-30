@@ -1,0 +1,32 @@
+.titulo-habitaciones {
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+}
+
+.Subtitulo-pag-habitaciones {
+    font-style: italic;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.parrafo-habitaciones {
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    margin:30px;
+ 
+}
+
+.container-habitaciones {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.container-habitaciones img {
+   width: 350px;
+    padding: 1rem;
+}

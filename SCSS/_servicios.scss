@@ -1,0 +1,53 @@
+.titulo-servicios {
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+.container-servicios {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-servicios .card-servicio {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container-servicios .card-servicio:hover {
+    transform: translate(-15px);
+   
+}
+
+.container-servicios .card-servicio img {
+    width: 330px;
+    height: 220px;
+}
+
+.container-habitaciones .card-servicio h3 {
+    font-weight: 600;
+}
+.container-habitaciones .card-servicio p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container-servicios .card-servicio a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498;
+}
